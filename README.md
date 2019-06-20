@@ -29,6 +29,8 @@ The work flow of the algorithm can be resumed as:
 
 ![Original data](https://github.com/JiadongWANG94/3D-Perception-and-Modelization/blob/master/figures/Data_Set.png)
 
-![Range Image](https://github.com/JiadongWANG94/3D-Perception-and-Modelization/blob/master/figures/Max_Range_Image_Zoom.png)
+![Range Image](https://github.com/JiadongWANG94/3D-Perception-and-Modelization/blob/master/figures/Max_Range_Image_Zoom.jpg)
 
 ![Output data](https://github.com/JiadongWANG94/3D-Perception-and-Modelization/blob/master/figures/Colored.png)
+
+You can download the data from [IQmulus & TerraMobilita Contest HomePage](http://data.ign.fr/benchmarks/UrbanAnalysis/).
