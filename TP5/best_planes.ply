@@ -1,0 +1,12 @@
+ply
+format binary_little_endian 1.0
+element vertex 0
+property float32 x
+property float32 y
+property float32 z
+property uint8 red
+property uint8 green
+property uint8 blue
+property int32 label
+property int32 plane_label
+end_header
