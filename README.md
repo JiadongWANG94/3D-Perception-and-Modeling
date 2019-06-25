@@ -48,5 +48,5 @@ The work flow of the algorithm can be resumed as:
 
 You can download the data from [IQmulus & TerraMobilita Contest HomePage](http://data.ign.fr/benchmarks/UrbanAnalysis/).
 
-**Suture of MLS point clouds**
+**Suture of MLS point clouds**  
 Given a set of sequential frames of MLS point clouds, an algorithm was designed to suture them together. ICP, PCA and regional croissance methods are included.
