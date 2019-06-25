@@ -1,5 +1,18 @@
 # 3D Perception and Modelization Class Project
 
+This is a repository containing a toolbox to process 3D point clouds, including:
+- read and write .ply file
+- ICP(Iterative Closest Point)
+- PCA(Principle Component Analysis)
+- RANSAC(to find the bigest plane)
+- transfer into range images
+- K-Dimension Tree(with scikit-learn)
+- Computation of normal and a reference point of a plane based on 3 points
+- grid sampling
+- random sampling
+- filter based on number of neighbors
+- regional croissance
+
 **Urban accessibility diagnosis based on MLS point clouds**
 
 This is the final project of class *3D perception and modelizaiton* of SJTU-ParisTech Elite Institut of Technology held by Prof. Jean-Emmanuel Deschaud form Mines ParisTech.  
@@ -34,3 +47,6 @@ The work flow of the algorithm can be resumed as:
 ![Output data](https://github.com/JiadongWANG94/3D-Perception-and-Modelization/blob/master/figures/Colored.png)
 
 You can download the data from [IQmulus & TerraMobilita Contest HomePage](http://data.ign.fr/benchmarks/UrbanAnalysis/).
+
+**Suture of MLS point clouds**
+Given a set of sequential frames of MLS point clouds, an algorithm was designed to suture them together. ICP, PCA and regional croissance methods are included.
