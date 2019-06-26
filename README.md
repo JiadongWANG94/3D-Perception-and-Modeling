@@ -1,6 +1,6 @@
 # 3D Perception and Modeling
 
-
+## ToolBox
 A big part of this repository is a python toolbox to process 3D point clouds, including:
 
 ```
@@ -55,8 +55,10 @@ ToolBox
 ```
 The code of this toolbox is written by *Jean-Emmanuel DESCHAUD*, *Hugues THOMAS* and *Xavier ROYNARD*. This toolbox is offered to Master students of SJTU-ParisTech Elite Institut of Technoligy as correlation of in-class TDs of the course **'Perception 3D et Modélisation'**.
 
-Based on the toolbox, some of applications are done by *Jiadong WANG*:  
-**Urban accessibility diagnosis based on MLS point clouds**
+## Applications
+Based on the toolbox, some of applications are done by *Jiadong WANG*.
+
+### Urban accessibility diagnosis based on MLS point clouds
 
 This is the final project of class *3D perception and modelizaiton* of SJTU-ParisTech Elite Institut of Technology held by Prof. Jean-Emmanuel Deschaud form Mines ParisTech.  
 In this project, I tried to realize part of functions described in the paper *Urban accessibility diagnosis based on MLS point clouds*, including segmentation of facades, roads, curbs and objects.  
@@ -91,8 +93,8 @@ The work flow of the algorithm can be resumed as:
 
 You can download the data from [IQmulus & TerraMobilita Contest HomePage](http://data.ign.fr/benchmarks/UrbanAnalysis/).
 
-**Suture of MLS point clouds**  
+### Suture of MLS point clouds  
 Given a set of sequential frames of MLS point clouds, an algorithm was designed to suture them together. ICP, PCA and regional croissance methods are included.
 
-**3D Reconstruction and Mapping of an Indoor Environment** 
+### 3D Reconstruction and Mapping of an Indoor Environment 
 A project of an internship at BOSCH.
