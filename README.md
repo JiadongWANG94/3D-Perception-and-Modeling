@@ -1,37 +1,61 @@
-# 3D Perception and Modelization Class Project
+# 3D Perception and Modelling
 
-This is a repository containing a toolbox to process 3D point clouds, including:
-- read and write .ply file
-- ICP(Iterative Closest Point)
-- PCA(Principle Component Analysis)
-- RANSAC(to find the bigest plane)
-- transfer into range images
-- K-Dimension Tree(with scikit-learn)
-- Computation of normal and a reference point of a plane based on 3 points
-- grid sampling
-- random sampling
-- filter based on number of neighbors
-- regional croissance
+
+A big part of this repository is a python toolbox to process 3D point clouds, including:
 
 ```
-project
-│   README.md
-│   file001.txt    
+ToolBox
+│   utlis.py
+│   │   read_ply
+|   └───write_ply
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+└───neighborhoods.py
+│   │   brute_force_spherical
+│   │   brute_force_KNN
+│   └───KDTree
 │   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───subsampling.py
+│   │   cloud_decimation
+│   │   grid_subsampling
+│   │   grid_subsampling_colors
+│   └───grid_subsampling_labels
+│   
+└───transformation.py
+│   │   rotation
+│   └───translation
+│
+└───ICP.py
+│   │   best_rigid_transform
+│   │   icp_point_to_point
+│   │   icp_point_to_point_fast
+│   └───RMS10_estimation
+│
+└───descriptors.py
+│   │   rot_3D
+│   │   PCA
+│   │   compute_local_PCA
+│   └───compute_features
+│
+└───RANSAC.py
+│   │   compute_plane
+│   │   in_plane
+│   │   RANSAC
+│   └───recursive_RANSAC
+│
+└───RegionGrowing.py
+│   │   compute_curvatures_and_normals
+│   │   region_criterion
+│   │   queue_criterion
+│   │   RegionGrowing
+│   └───recursive_RegionGrowing
+│
+└───reconstruction.py
+    │   compute_hoppe
+    └───compute_eimls
 ```
+The code of this toolbox is written by *Jean-Emmanuel DESCHAUD*, *Hugues THOMAS* and *Xavier ROYNARD*. This toolbox is offered to Master students of SJTU-ParisTech Elite Institut of Technoligy as correlation of in-class TDs of the course **'Perception 3D et Modélisation'**.
 
+Based on the toolbox, some of applications are done by *Jiadong WANG*:
 **Urban accessibility diagnosis based on MLS point clouds**
 
 This is the final project of class *3D perception and modelizaiton* of SJTU-ParisTech Elite Institut of Technology held by Prof. Jean-Emmanuel Deschaud form Mines ParisTech.  
@@ -69,3 +93,6 @@ You can download the data from [IQmulus & TerraMobilita Contest HomePage](http:/
 
 **Suture of MLS point clouds**  
 Given a set of sequential frames of MLS point clouds, an algorithm was designed to suture them together. ICP, PCA and regional croissance methods are included.
+
+**3D Reconstruction and Mapping of an Indoor Environment** 
+A project of an internship at BOSCH.
