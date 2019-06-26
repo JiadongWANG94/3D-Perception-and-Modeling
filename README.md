@@ -1,4 +1,4 @@
-# 3D Perception and Modelling
+# 3D Perception and Modeling
 
 
 A big part of this repository is a python toolbox to process 3D point clouds, including:
