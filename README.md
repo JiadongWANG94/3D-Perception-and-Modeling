@@ -55,7 +55,7 @@ ToolBox
 ```
 The code of this toolbox is written by *Jean-Emmanuel DESCHAUD*, *Hugues THOMAS* and *Xavier ROYNARD*. This toolbox is offered to Master students of SJTU-ParisTech Elite Institut of Technoligy as correlation of in-class TDs of the course **'Perception 3D et Modélisation'**.
 
-Based on the toolbox, some of applications are done by *Jiadong WANG*:
+Based on the toolbox, some of applications are done by *Jiadong WANG*:  
 **Urban accessibility diagnosis based on MLS point clouds**
 
 This is the final project of class *3D perception and modelizaiton* of SJTU-ParisTech Elite Institut of Technology held by Prof. Jean-Emmanuel Deschaud form Mines ParisTech.  
